@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Crowdsourcing gene predictions &amp;amp; estimating population sizes</title>
+  <meta name="author" content="Bruno Vieira">
+
+  <link rel="stylesheet" href="vendors/revealjs/css/reveal.css">
+  <link rel="stylesheet" href="vendors/Font-Awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="theme/style.css">
+</head>
+
+<body>
+
+  <div class="reveal">
+    <div class="slides">
+      
+<section data-state=front>
+<h2 id="crowdsourcing-gene-predictions-estimating-population-sizes">Crowdsourcing gene predictions &amp; estimating population sizes</h2>
+<p><a href="//bmpvieira.com/seminar14">bmpvieira.com/seminar14</a></p>
+<p>Bruno Vieira | <i class="fa fa-twitter"></i> <a href="//twitter.com/bmpvieira">@bmpvieira</a></p>
+<p><img src="img/Queen_Mary,_University_of_London_logo.svg" alt="QMUL" style="float: left; padding: 1%; max-width: 26%; vertical-align: text-bottom;" />
+<img src="img/new-bbsrc-colour-cmyk.svg" alt="BBSRC" style="float: left; padding: 1.5%; max-width: 25%; vertical-align: text-bottom;" /></p>
+</section>
+
+<section data-state=title>
+<h2 id="bioinformatics-and-population-genomics">Bioinformatics and Population Genomics</h2>
+</section>
+
+<section>
+<h3 id="initially-address-two-issues">Initially address two issues</h3>
+<ul>
+<li>Scaling gene prediction</li>
+<li><em>N<span style="vertical-align: sub; font-size: .8em;">e</span></em> inference in insects with the Pairwise Sequentially Markovian Coalescent (PSMC) method.</li>
+</ul>
+</section>
+
+<section data-state=title>
+<h2 id="two-projects-br-br-afra-psmc">Two Projects <br><br> Afra &amp; PSMC</h2>
+</section>
+
+<section>
+<h3 id="afra">Afra</h3>
+<blockquote>
+<p>Web application to crowdsource gene prediction</p>
+</blockquote>
+<p><i class="fa fa-github-alt"></i> <a href="//github.com/yeban/afra">github.com/yeban/afra</a></p>
+</section>
+
+<section>
+<h3 id="psmc">PSMC</h3>
+<blockquote>
+<p>Pairwise Sequentially Markovian Coalescent¹ method on insect genomes for inference of the population size history</p>
+</blockquote>
+<p><i class="fa fa-github-alt"></i> <a href="//https://github.com/lh3/psmc">github.com/lh3/psmc</a></p>
+<p><hr>
+<small>
+¹ Li, H., &amp; Durbin, R. (2011). Inference of human population history from individual whole-genome sequences. <em>Nature, 475</em> (7357), 493–6. <a href="//dx.doi.org/10.1038/nature10231">doi:10.1038/nature10231</a>
+</small></p>
+</section>
+
+<section data-state=title>
+<h2 id="afra">Afra</h2>
+<p><img src="img/anurag_afra_dashboard.png" alt="Afra's current dashboard" style="max-width: 90%" /></p>
+</section>
+
+<section>
+<h3 id="afra">Afra</h3>
+<blockquote>
+<p><strong><span class="fragment highlight-current-blue">Web application</span> to crowdsource gene prediction</strong></p>
+</blockquote>
+<p><i class="fa fa-github-alt"></i> <a href="//github.com/yeban/afra">github.com/yeban/afra</a></p>
+</section>
+
+<section data-state=q>
+<h2 id="web-application-">Web Application?</h2>
+</section>
+
+<section>
+<h3 id="gmail-facebook-etc-">Gmail, Facebook, etc.</h3>
+<p><img src="img/webapps.png" alt="Web Apps" style="max-width: 90%;" /></p>
+</section>
+
+<section>
+<h3 id="afra">Afra</h3>
+<blockquote>
+<p><strong>Web application to <span class="fragment highlight-current-blue">crowdsource</span> gene prediction</strong></p>
+</blockquote>
+<p><i class="fa fa-github-alt"></i> <a href="//github.com/yeban/afra">github.com/yeban/afra</a></p>
+</section>
+
+<section data-state=q>
+<h2 id="crowdsource-">Crowdsource?</h2>
+</section>
+
+<section>
+<h3 id="crowd-outsource">Crowd + Outsource</h3>
+<!-- <img src="img/crowd.jpg" alt="From: http://www.flickr.com/photos/jamescridland/613445810/sizes/z/" style="max-width: 90%;" /> -->
+
+
+<section data-background="img/crowd-original-background.jpg">
+  <img class="stretch" src="img/crowd.jpg" alt="From: http://www.flickr.com/photos/jamescridland/613445810/sizes/z/" style="max-width: 100%;" />
+</section>
+
+</section>
+
+<section>
+<h3 id="citizen-science">Citizen Science</h3>
+<!-- <img src="img/citizen_science-background.jpg" alt="From: http://www.jamesborrell.com/10-lessons-from-a-year-of-citizen-science-my-talk-from-the-citizen-cyberscience-summit" style="max-width: 90%;" /> -->
+
+<section data-background="img/citizen_science-background.jpg">
+  <img src="img/citizen_science.jpg" alt="From: http://www.jamesborrell.com/10-lessons-from-a-year-of-citizen-science-my-talk-from-the-citizen-cyberscience-summit/" style="max-width: 75%;" />
+  <p>
+    <small>
+      James Borrell | <i class="fa fa-twitter"></i> <a href="//twitter.com/James_Borrell">@James_Borrell</a>
+      <br>
+      Citizen Cyberscience Summit 2014 | <i class="fa fa-twitter"></i> <a href="//twitter.com/#ccs14">#ccs14</a>
+    </small>
+  </p>
+</section>
+
+
+</section>
+
+<section>
+<h3 id="self-reward-helping-science">Self-reward helping Science</h3>
+<p>Zooniverse success</p>
+<p><img src="img/zooniverse.png" alt="From: http://infobeautiful2.s3.amazonaws.com/goggle_boxes.png" style="max-width: 90%;" /></p>
+</section>
+
+<section>
+<h3 id="lazy-people-don-t-care-">Lazy people don&#39;t care...</h3>
+<p><br>
+<img class="stretch" src="img/lazy_cat.jpg" alt="From: http://www.jenniferhudson.com/us/photos/my-lazy-cat" style="max-width: 100%;" /></p>
+</section>
+
+<section>
+<h3 id="cognitive-surplus">Cognitive surplus</h3>
+<p><img src="img/goggle_boxes.png" alt="From: http://infobeautiful2.s3.amazonaws.com/goggle_boxes.png" style="max-width: 90%;" /></p>
+</section>
+
+<section data-state=title>
+<h2 id="gamification">Gamification</h2>
+</section>
+
+<section>
+<h3 id="useless-game-flappy-bird">Useless game | Flappy bird</h3>
+<p>50 milion downloads | $50 000 per day</p>
+<p><img src="img/flappy.png" alt="Flappy bird screenshot" style="max-width: 60%;" /></p>
+<p><small>
+<i class="fa fa-link"></i> <a href="//http://flappybird.io">flappybird.io</a>
+</small></p>
+</section>
+
+<section>
+<h3 id="useful-genes-in-space">Useful | Genes In Space</h3>
+<p><img src="img/cancerresearchuk.png" alt="Cancer Research UK screenshot" style="max-width: 75%;" />
+<small>
+<i class="fa fa-link"></i> <a href="//www.cancerresearchuk.org/support-us/play-to-cure-genes-in-space"><a href="http://www.cancerresearchuk.org">http://www.cancerresearchuk.org</a></a>
+</small></p>
+</section>
+
+<section>
+<h3 id="useful-genes-in-space">Useful | Genes In Space</h3>
+<p><img src="img/cancerresearchuk-science.png" alt="Flappy bird screenshot" style="max-width: 55%;" />
+<small>
+<i class="fa fa-link"></i> <a href="//http://scienceblog.cancerresearchuk.org/2014/02/04/download-our-revolutionary-mobile-game-to-help-speed-up-cancer-research/"><a href="http://www.cancerresearchuk.org">http://www.cancerresearchuk.org</a></a>
+</small></p>
+</section>
+
+<section>
+<h3 id="afra">Afra</h3>
+<blockquote>
+<p><strong>Web application to crowdsource <span class="fragment highlight-current-blue">gene prediction</span></strong></p>
+</blockquote>
+<p><i class="fa fa-github-alt"></i> <a href="//github.com/yeban/afra">github.com/yeban/afra</a></p>
+</section>
+
+<section data-state=q>
+<h2 id="gene-prediction-">Gene prediction?</h2>
+</section>
+
+<section>
+<h3 id="gene-prediction">Gene prediction</h3>
+<p><img class="stretch" src="img/dalliance.png" alt="Dalliance screenshot" style="max-width: 75%;" />
+<small>
+<i class="fa fa-link"></i> <a href="//www.biodalliance.org/human37.html"><a href="http://www.biodalliance.org/human37.html">http://www.biodalliance.org/human37.html</a></a>
+</small></p>
+</section>
+
+<section>
+<h3 id="gene-prediction-models">Gene prediction models</h3>
+<p><img style="max-width: 70%;" src="img/gene-prediction-models.png" alt="Gene prediction models" /></p>
+<p><hr>
+<small></p>
+<p> Sleator, R. D. (2010). An overview of the current status of eukaryote gene prediction strategies. <em>Gene, 461</em> (1-2), 1–4. <a href="//dx.doi.org/10.1016/j.gene.2010.04.008">doi:10.1016/j.gene.2010.04.008</a></p>
+<p></small></p>
+</section>
+
+<section>
+<h3 id="maker">MAKER</h3>
+<p><img class="stretch" src="img/MAKER.jpg" alt="MAKER Apollo view" style="width: 80%;" />
+<small>
+<i class="fa fa-link"></i> <a href="//www.gmod.org/wiki/MAKER"><a href="http://www.gmod.org/wiki/MAKER">http://www.gmod.org/wiki/MAKER</a></a>
+</small></p>
+<!-- also see http://gmod.org/wiki/File:Comparison.png -->
+
+</section>
+
+<section>
+<h3 id="manual-curation-won-t-scale-">Manual curation won&#39;t scale...</h3>
+<p><img class="stretch" src="img/ngs.png" alt="From: http://aws.labome.com/figure/te-203-10.png" style="width: 80%;" /></p>
+</section>
+
+<section>
+<h3 id="afra-demo">Afra Demo</h3>
+<p><img style="max-width: 80%;" src="img/afra-annotation-demo.mov.gif" alt="Demonstration of Afra" /></p>
+<p><i class="fa fa-github-alt"></i> <a href="http://afra.sbcs.qmul.ac.uk">afra.sbcs.qmul.ac.uk</a></p>
+</section>
+
+<section data-state=title>
+<h2 id="previous-work">Previous work</h2>
+</section>
+
+<section>
+<h3 id="main-developer">Main developer</h3>
+<p><img src="img/anurag.jpeg" alt="Anurag Priyam"></p>
+<p>Anurag Priyam | <i class="fa fa-twitter"></i> <a href="//twitter.com/yeban">@yeban</a></p>
+</section>
+
+<section>
+<h3 id="webapollo">WebApollo</h3>
+<p><img style="max-width: 50%;" src="img/WebApollo.png" alt="WebApollo" /></p>
+<p><i class="fa fa-github-alt"></i> <a href="//github.com/gmod/apollo">github.com/gmod/apollo</a></p>
+<p><i class="fa fa-link"></i> <a href="//apollo.berkeleybop.org">apollo.berkeleybop.org</a></p>
+</section>
+
+<section data-state=title>
+<h2 id="current-work">Current work</h2>
+</section>
+
+<section>
+<h3 id="gamification">Gamification</h3>
+<p>Dashboad mockup</p>
+<p><img style="max-width: 80%;" src="img/2013-11-12_afra_dashboard_mockup.png" alt="Dashboard mockup" /></p>
+</section>
+
+<section>
+<h3 id="gamification">Gamification</h3>
+<p>Dashboard HTML5 (incomplete)</p>
+<p><img style="max-height: 100%;" src="img/2013-12-09_afra_dashboard_html.png" alt="Dashboard HTML5" /></p>
+</section>
+
+<section data-state=title>
+<h2 id="priority-change">Priority change</h2>
+</section>
+
+<section>
+<h3 id="annotation-editing-feature-far-from-completion-due-to-complexity-of-the-project">Annotation editing feature far from completion due to complexity of the project</h3>
+</section>
+
+<section>
+<h3 id="software-stack">Software Stack</h3>
+<p><img class="fragment" src="img/stack_gmod.png" alt="BBSRC" style="float: left; padding: 1%; max-width: 45%; vertical-align: text-bottom;" />
+<img class="fragment" src="img/stack_afra.png" alt="BBSRC" style="float: left; padding: 1%; max-width: 46%; vertical-align: text-bottom;" /></p>
+<p class="fragment" style="clear: left;">
+Move most of the logic to the client side (browser) for scalability
+</p>
+
+</section>
+
+<section>
+<h3 id="afra-stack">Afra Stack</h3>
+<div class="fragment fade-in" data-fragment-index="0">
+  <div class="fragment fade-out" data-fragment-index="1">
+    <img src="img/stack_bionode.png" alt="BBSRC" style="float: left; padding: 1%; max-width: 80%; vertical-align: text-bottom; position: absolute; left: 0;" />
+  </div>
+</div>
+
+<div class="fragment fade-in" data-fragment-index="1">
+  <img src="img/stack_bionode_highlight.png" alt="BBSRC" style="float: left; padding: 1%; max-width: 80%; vertical-align: text-bottom; position: absolute; left: 0;" />
+</div>
+
+
+</section>
+
+<section>
+<h3 id="bionode">Bionode</h3>
+<p><img src="img/bionode.png" alt="bionode"></p>
+<p><i class="fa fa-github-alt"></i> <a href="//github.com/bionode/bionode">github.com/bionode/bionode</a></p>
+</section>
+
+<section>
+<h3 id="gamify">Gamify</h3>
+<ul>
+<li>Scores</li>
+<li>Open Badges</li>
+<li>Certificates of Expertise</li>
+</ul>
+<p><br>
+<img src="img/badges.png" alt="PSMC plot" style="max-width: 50%" /></p>
+<p><small>
+<i class="fa fa-link"></i> <a href="//openbadges.org"><a href="http://openbadges.org">http://openbadges.org</a></a>
+</small></p>
+</section>
+
+<section>
+<h3 id="machine-learning">Machine Learning</h3>
+<p>Use data generated by users to improve gene prediction models</p>
+<section data-background="img/machine-learning-background.png">
+  <a href="//speakerdeck.com/ttfnrob/zooniverse-citizen-cyberscience-summit-2014?slide=36" target="_blank">
+  <img src="img/machine-learning.png" alt="From: https://speakerdeck.com/ttfnrob/zooniverse-citizen-cyberscience-summit-2014" style="max-width: 55%;" />
+  </a>
+  <p>
+    <small>
+      Robert Simpson | <i class="fa fa-twitter"></i> <a href="//twitter.com/orbitingfrog">@orbitingfrog</a>
+      <br>
+      Citizen Cyberscience Summit 2014 | <i class="fa fa-twitter"></i> <a href="//twitter.com/#ccs14">#ccs14</a>
+    </small>
+  </p>
+</section>
+
+
+</section>
+
+<section data-state=title>
+<h2 id="psmc">PSMC</h2>
+<p><img src="img/psmc_plot.png" alt="PSMC plot" style="max-width: 90%" /></p>
+</section>
+
+<section>
+<h3 id="psmc">PSMC</h3>
+<blockquote>
+<p>Pairwise Sequentially Markovian Coalescent¹ method on insect genomes for inference of the population size history</p>
+</blockquote>
+<p><i class="fa fa-github-alt"></i> <a href="//https://github.com/lh3/psmc">github.com/lh3/psmc</a></p>
+<p><hr>
+<small>
+¹ Li, H., &amp; Durbin, R. (2011). Inference of human population history from individual whole-genome sequences. <em>Nature, 475</em> (7357), 493–6. <a href="//dx.doi.org/10.1038/nature10231">doi:10.1038/nature10231</a>
+</small></p>
+</section>
+
+<section>
+<h3 id="theory">Theory</h3>
+<blockquote>
+<p>&quot;The PSMC infers the local time to the most recent common ancestor (TMRCA) on the basis of the local density of heterozygotes, using a hidden Markov model&quot;</p>
+</blockquote>
+<p>H. Li &amp; Durbin, 2011</p>
+</section>
+
+<section>
+<h3 id="practice">Practice</h3>
+<p><img class="stretch" style="max-width: 100%;" src="img/psmc.png" alt="WebApollo" /></p>
+<p>H. Li &amp; Durbin, 2011</p>
+</section>
+
+<section>
+<h3 id="previous-usages">Previous usages</h3>
+<div style="font-size:.8em;">
+<ul>
+<li> Evaluate the effect of historical climate changes, such as glacial periods, on a species[1]</li>
+<li> Measure the impact of anthropogenic activity in the decline of species[2]</li>
+<li> Discover unexpected population bottlenecks[3]</li>
+<li> Detect the time of divergence between populations[4]</li>
+<li> etc.
+<ul>
+</div>
+
+<p><br>
+<small>
+[1]: W. Miller &amp; Schuster, 2012; Nadachowska-Brzyska et al., 2013;<br>[2]: S. Zhao et al., 2013;<br>[3]: Freedman et al., 2014;<br>[4]: H. Li &amp; Durbin, 2011.
+</small></p>
+</section>
+
+<section data-state=title>
+<h2 id="not-very-used-on-insects-span-class-fragment-data-fragment-index-0-until-now-span-">Not very used on insects<span class="fragment" data-fragment-index="0">... until now!</span></h2>
+<p><img class="fragment" data-fragment-index="0" src="img/ant.jpg" alt="From: http://commons.wikimedia.org/wiki/File:Ant_head_closeup.jpg" style="max-width: 50%" /></p>
+</section>
+
+<section>
+<h3 id="use-psmc-to-answer-some-evolutionary-questions">Use PSMC to answer some evolutionary questions</h3>
+</section>
+
+<section data-state=q>
+<h2 id="in-insects-does-n-span-style-vertical-align-sub-font-size-8em-e-span-for-solitary-social-">In insects, does <em>N<span style="vertical-align: sub; font-size: .8em;">e</span></em> for solitary &gt; social?</h2>
+</section>
+
+<section>
+<h3 id="experimental-design">Experimental design</h3>
+<p>Run PSMC across a wide range of insects that evolved eusociality.</p>
+<p><img src="img/WeaverAntDefense.JPG" alt="From: http://upload.wikimedia.org/wikipedia/commons/8/85/WeaverAntDefense.JPG" style="max-width: 38%" />
+<img src="img/Honeybee_landing_on_milkthistle02.jpg" alt="From: http://upload.wikimedia.org/wikipedia/commons/e/e0/Honeybee_landing_on_milkthistle02.jpg" style="max-width: 35%" /></p>
+<p><img src="img/Coptotermes_formosanus_shiraki_USGov_k8204-7.jpg" alt="From: http://upload.wikimedia.org/wikipedia/commons/d/d3/Coptotermes_formosanus_shiraki_USGov_k8204-7.jpg" style="max-width: 15%" />
+<img src="img/Bush_Cockroach.jpg" alt="From: http://upload.wikimedia.org/wikipedia/commons/c/ca/Bush_Cockroach.jpg" style="max-width: 30%" /></p>
+</section>
+
+<section data-state=q>
+<h2 id="in-ants-colonies-does-n-span-style-vertical-align-sub-font-size-8em-e-span-for-multi-queen-single-queen-">In ants colonies, does <em>N<span style="vertical-align: sub; font-size: .8em;">e</span></em> for multi queen &gt; single queen?</h2>
+</section>
+
+<section>
+<h3 id="experimental-design">Experimental design</h3>
+<p>Run PSMC on many ant genomes, perhaps more than the seven genomes currently sequenced and publicly available</p>
+<p><small></p>
+<ul>
+<li>Jerdon&#39;s jumping ant, <em>Harpegnathos saltator</em> (Bonasio, 2010)</li>
+<li>Florida carpenter ant, <em>Camponotus floridanus</em> (Bonasio, 2010)</li>
+<li>Argentine ant, <em>Linepithema humile</em> (Smith, 2011)</li>
+<li>Fire ant, <em>Solenopsis invicta</em> (Wurm, 2011)</li>
+<li>Two leafcutter ants, <em>Atta cephalotes</em> (Suen, 2011) and <em>Acromyrmex echinatior</em> (Nygaard, 2011);</li>
+<li>Red harvester ant, <em>Pogonomyrmex barbatus</em> (Smith, 2011).</li>
+</ul>
+<p></small></p>
+</section>
+
+<section data-state=title>
+<h2 id="current-work">Current work</h2>
+</section>
+
+<section>
+<h3 id="reproducing-published-results-to-master-psmc">Reproducing published results to master PSMC</h3>
+<div style="font-size: .8em;">
+<ul>
+<li>Li, H., &amp; Durbin, R. (2011). <strong>Inference of human population history from individual whole-genome sequences</strong>. <em>Nature, 475</em> (7357), 493–6. <a href="//dx.doi.org/10.1038/nature10231">doi:10.1038/nature10231</a></li>
+
+<li> Freedman, A. H., Gronau, I., Schweizer, R. M., Ortega-Del Vecchyo, D., Han, E., Silva, P. M., ... Novembre, J. (2014). <strong>Genome Sequencing Highlights the Dynamic Early History of Dogs</strong>. (L. Andersson, ed.)<em>PLoS Genetics, 10</em>(1), e1004016. <a href="//dx.doi.org/10.1371/journal.pgen.1004016">doi:10.1371/journal.pgen.1004016</a></li>a
+
+</div>
+
+</section>
+
+<section>
+<h3 id="thank-you-">Thank you!</h3>
+<p><img style="max-width: 15%;" src="img/bmpvieira.png" alt"Bruno Vieira"/>
+Bruno Vieira | <i class="fa fa-twitter"></i> <a href="//twitter.com/bmpvieira">@bmpvieira</a></p>
+<p><img style="max-width: 15%;" src="img/anurag.jpeg" alt"Anurag Priyam" />
+Anurag Priyam | <i class="fa fa-twitter"></i> <a href="//twitter.com/yeban">@yeban</a></p>
+<p><img style="max-width: 15%;" src="img/yannick.jpg" alt"Yannick Wurm" />
+Yannick Wurm | <i class="fa fa-twitter"></i> <a href="//twitter.com/yannick__">@yannick__</a></p>
+<p><a href="//bmpvieira.com/seminar14">bmpvieira.com/seminar14</a></p>
+<p><small>
+© 2014 <a href="//bmpvieira.com">Bruno Vieira</a> <a href="//creativecommons.org/licenses/by/4.0/deed.en_US">CC-BY 4.0</a>
+</small></p>
+</section>
+
+<section>
+<h3 id="summary">Summary</h3>
+<p><a href="//bmpvieira.com/seminar14">bmpvieira.com/seminar14</a></p>
+<div style="text-align: left; line-height:2em;">
+
+<span style="font-size: 1.2em;">Afra - crowdsource gene prediction</span>
+<small>
+<ul style="text-align: left; line-height:1.5em;">
+<li> Address data &quot;deluge&quot; with crowdsourcing and gamification</li>
+<li> Make WebApollo more scalable by moving logics to client side</li>
+<li> Implement biological logics in JavaScript as reusable module</li>
+</ul>
+
+</small>
+<span style="font-size: 1.2em;">PSMC - <em>N<span style="vertical-align: sub; font-size: .8em;">e</span></em> history in insects</span>
+<small>
+<ul style="text-align: left; line-height:1.5em;">
+<li> Master this method by reproducing published results</li>
+<li> In insects, does <em>N<span style="vertical-align: sub; font-size: .8em;">e</span></em> for solitary &gt; social?</li>
+<li> In ants colonies, does <em>N<span style="vertical-align: sub; font-size: .8em;">e</span></em> for multi queen &gt; single queen?</li>
+</ul>
+
+</small>
+
+</div>
+</section>
+
+    </div>
+  </div>
+
+<script src="vendors/jquery-1.11.0.min.js"></script>
+
+<!-- reveal -->
+<script src="vendors/revealjs/lib/js/head.min.js"></script>
+<script src="vendors/revealjs/js/reveal.js"></script>
+<script>
+  Reveal.initialize({
+
+    // Display controls in the bottom right corner
+    controls: false,
+
+    // Display a presentation progress bar
+    progress: true,
+
+    // Display a subtle timer bar (time is in minutes)
+    timeRemaining: 10,
+
+    // Push each slide change to the browser history
+    history: true,
+
+    // Enable keyboard shortcuts for navigation
+    keyboard: true,
+
+    // Enable the slide overview mode
+    overview: true,
+
+    // Vertical centering of slides
+    center: false,
+
+    // Loop the presentation
+    loop: false,
+
+    // Change the presentation direction to be RTL
+    rtl: false,
+
+    // Number of milliseconds between automatically proceeding to the
+    // next slide, disabled when set to 0, this value can be overwritten
+    // by using a data-autoslide attribute on your slides
+    autoSlide: 0,
+
+    // Enable slide navigation via mouse wheel
+    mouseWheel: false,
+
+    // Apply a 3D roll to links on hover
+    rollingLinks: false,
+
+    // Transition style
+    transition: 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+    dependencies: [
+        // Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
+        { src: 'vendors/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+
+        // Interreveal/pret Markdown in <section> elements
+    { src: 'vendors/revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    { src: 'vendors/revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); }, callback: function() { baconDemo() } },
+
+        // Syntareveal/x highlight for <code> elements
+          { src: 'vendors/revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+
+          // Zoom reveal/in and out with Alt+click
+          { src: 'vendors/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+
+          // Speakreveal/er notes
+          { src: 'vendors/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+
+          // Remotreveal/e control your reveal.js presentation using a touch device
+          // { src: 'reveal/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+          ]
+
+          });
+    </script>
+</body>
+
