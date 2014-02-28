@@ -1,9 +1,9 @@
 ## Crowdsourcing gene predictions & estimating population sizes
 
-[bmpvieira.com/seminar14](//bmpvieira.com/seminar14)
+<a href="//bmpvieira.com/seminar14" target="_blank">bmpvieira.com/seminar14</a>
 
 
-Bruno Vieira | <i class="fa fa-twitter"></i> [@bmpvieira](//twitter.com/bmpvieira)
+Bruno Vieira | <i class="fa fa-twitter"></i> <a href="//twitter.com/bmpvieira" target="_blank">@bmpvieira</a>
 
 <img src="img/Queen_Mary,_University_of_London_logo.svg" alt="QMUL" style="float: left; padding: 1%; max-width: 26%; vertical-align: text-bottom;" />
 <img src="img/new-bbsrc-colour-cmyk.svg" alt="BBSRC" style="float: left; padding: 1.5%; max-width: 25%; vertical-align: text-bottom;" />
@@ -20,7 +20,7 @@ Bruno Vieira | <i class="fa fa-twitter"></i> [@bmpvieira](//twitter.com/bmpvieir
 
 <br>
 
-<span class="fragment" style="font-size: 1.5em; line-height: 1.3em;">Infer the efective population size history in insects with the PSMC method [(Li, 2011)](//dx.doi.org/10.1038/nature10231).</span>
+<span class="fragment" style="font-size: 1.5em; line-height: 1.3em;">Infer the efective population size history in insects with the PSMC method <a href="//dx.doi.org/10.1038/nature10231" target="_blank">(Li, 2011)</a>.</span>
 
 
 ---
@@ -45,7 +45,7 @@ Bruno Vieira | <i class="fa fa-twitter"></i> [@bmpvieira](//twitter.com/bmpvieir
 <hr>
 <small>
 Gene prediction models
- [(Sleator, 2010)](//dx.doi.org/10.1016/j.gene.2010.04.008)
+ <a href="//dx.doi.org/10.1016/j.gene.2010.04.008" target="_blank">(Sleator, 2010)</a>
 </small>
 
 ---
@@ -60,7 +60,7 @@ Gene prediction models
 
 > <span style="font-size: 2em; line-height: 1.2em;">Web application to crowdsource gene prediction </span>
 
-<i class="fa fa-github-alt"></i> [github.com/yeban/afra](//github.com/yeban/afra)
+<i class="fa fa-github-alt"></i> <a href="//github.com/yeban/afra" target="_blank">github.com/yeban/afra</a>
 
 ---
 
@@ -89,9 +89,9 @@ Gene prediction models
   </a>
   <p>
     <small>
-      James Borrell | <i class="fa fa-twitter"></i> [@James_Borrell](//twitter.com/James_Borrell)
+      James Borrell | <i class="fa fa-twitter"></i> <a href="//twitter.com/James_Borrell" target="_blank">@James_Borrell</a>
       <br>
-      <a href="//jamesborrell.com/10-lessons-from-a-year-of-citizen-science-my-talk-from-the-citizen-cyberscience-summit/" target="_blank">Citizen Cyberscience Summit 2014</a> | <i class="fa fa-twitter"></i> [#ccs14](//twitter.com/#ccs14)
+      <a href="//jamesborrell.com/10-lessons-from-a-year-of-citizen-science-my-talk-from-the-citizen-cyberscience-summit/" target="_blank">Citizen Cyberscience Summit 2014</a> | <i class="fa fa-twitter"></i> <a href="//twitter.com/#ccs14" target="_blank" >#ccs14</a>
     </small>
   </p>
 </section>
@@ -101,7 +101,7 @@ Gene prediction models
 
 ### Self-reward helping Science
 
-[Zooniverse success](//zooniverse.org)
+<a href="//zooniverse.org" target="_blank">Zooniverse success</a>
 
 <img src="img/zooniverse.png" alt="From: http://infobeautiful2.s3.amazonaws.com/goggle_boxes.png" style="max-width: 90%;" />
 
@@ -120,7 +120,7 @@ Gene prediction models
 <img src="img/goggle_boxes.png" alt="From: http://infobeautiful2.s3.amazonaws.com/goggle_boxes.png" style="width: 65%;" />
 
 <small>
-[Shirky, 2010](http://www.informationisbeautiful.net/2010/cognitive-surplus-visualized)
+<a href="http://www.informationisbeautiful.net/2010/cognitive-surplus-visualized" target="_blank">Shirky, 2010</a>
 </small>
 
 ---
@@ -142,7 +142,7 @@ Gene prediction models
 <img src="img/flappy.png" alt="Flappy bird screenshot" style="max-width: 60%;" />
 
 <small>
-<i class="fa fa-link"></i> [flappybird.io](//http://flappybird.io)
+<i class="fa fa-link"></i> <a href="//flappybird.io" target="_blank">flappybird.io</a>
 </small>
 
 ---
@@ -151,7 +151,7 @@ Gene prediction models
 
 <img src="img/cancerresearchuk-merge.png" alt="Cancer Research UK screenshot" style="width: 100%;" />
 <small>
-<i class="fa fa-link"></i> [cancerresearchuk.org](//www.cancerresearchuk.org/support-us/play-to-cure-genes-in-space)
+<i class="fa fa-link"></i> <a href="//cancerresearchuk.org/support-us/play-to-cure-genes-in-space" target="_blank">cancerresearchuk.org</a>
 </small>
 
 ---
@@ -174,13 +174,13 @@ Gene prediction models
 
 ### Scale up and Gamify another Open Source project
 
-<i class="fa fa-github-alt"></i> [gmod/apollo](//github.com/gmod/apollo)
+<i class="fa fa-github-alt"></i> <a href="//github.com/gmod/apollo" target="_blank">gmod/apollo</a>
 →
-<i class="fa fa-github-alt"></i> [yeban/afra](//github.com/yeban/afra)
+<i class="fa fa-github-alt"></i> <a href="//github.com/yeban/afra" target="_blank">yeban/afra</a>
 
 <br>
 
-![Anurag Priyam](img/anurag.jpeg) Anurag Priyam | <i class="fa fa-twitter"></i> [@yeban](//twitter.com/yeban)
+![Anurag Priyam](img/anurag.jpeg) Anurag Priyam | <i class="fa fa-twitter"></i> <a href="//twitter.com/yeban" target="_blank">@yeban</a>
 
 ---
 
@@ -204,7 +204,7 @@ Biology logic on the browser
 
 ![bionode](img/bionode.png)
 
-<i class="fa fa-github-alt"></i> [github.com/bionode/bionode](//github.com/bionode/bionode)
+<i class="fa fa-github-alt"></i> <a href="//github.com/bionode/bionode" target="_blank">github.com/bionode/bionode</a>
 
 ---
 
@@ -227,9 +227,9 @@ Use data generated by users to improve gene prediction models
   </a>
   <p>
     <small>
-      Robert Simpson | <i class="fa fa-twitter"></i> [@orbitingfrog](//twitter.com/orbitingfrog)
+      Robert Simpson | <i class="fa fa-twitter"></i> <a href="//twitter.com/orbitingfrog" target="_blank">@orbitingfrog</a>
       <br>
-      <a href="//speakerdeck.com/ttfnrob/zooniverse-citizen-cyberscience-summit-2014" target="_blank">Citizen Cyberscience Summit 2014</a> | <i class="fa fa-twitter"></i> [#ccs14](//twitter.com/#ccs14)
+      <a href="//speakerdeck.com/ttfnrob/zooniverse-citizen-cyberscience-summit-2014" target="_blank">Citizen Cyberscience Summit 2014</a> | <i class="fa fa-twitter"></i> <a href="//twitter.com/#ccs14" target="_blank">#ccs14</a>
     </small>
   </p>
 </section>
@@ -265,25 +265,25 @@ Use data generated by users to improve gene prediction models
 <div style="display: block;">
 <img style="max-width: 20%; float: left; padding-right: 2%;" src="img/polar-bear.jpg" alt="http://en.wikipedia.org/wiki/File:Polar_Bear_-_Alaska.jpg" />
 
-<p>Effect of historical climate changes <span style="font-size:.5em;">(Miller, 2012)</span></small></p>
+<p>Effect of historical climate changes <span style="font-size:.5em;"><a href="//dx.doi.org/10.1073/pnas.1210506109" target="_blank">(Miller, 2012)</a></span></small></p>
 </div>
 
 <div style="display: block; clear: left; padding-top: 2%;">
 <img style="max-width: 20%; float: left; padding-right: 2%;" src="img/panda.jpg" alt="http://en.wikipedia.org/wiki/File:Grosser_Panda.JPG" />
 
-<p>Measure the impact of anthropogenic activity<span style="font-size:.5em;">(Zhao, 2013)</span></small></p>
+<p>Measure the impact of anthropogenic activity <span style="font-size:.5em;"><a href="//dx.doi.org/10.1038/ng.2494" target="_blank">(Zhao, 2013)</a></span></small></p>
 </div>
 
 <div style="display: block; clear: left; padding-top: 2%;">
 <img style="max-width: 20%; float: left; padding-right: 2%;" src="img/wolf2.jpg" alt="http://upload.wikimedia.org/wikipedia/commons/9/9d/Grauwolf_P1130275.jpg" />
 
-<p>Discover unexpected population bottlenecks <span style="font-size:.5em;">(Freedman, 2014)</span></small></p>
+<p>Discover unexpected population bottlenecks <span style="font-size:.5em;"><a href="//dx.doi.org/10.1371/journal.pgen.1004016" target="_blank">(Freedman, 2014)</a></span></small></p>
 </div>
 
 <div style="display: block; clear: left; padding-top: 2%;">
 <img style="max-width: 20%; float: left; padding-right: 2%;" src="img/human2.jpg" alt="http://en.wikipedia.org/wiki/File:Uomo_Vitruviano.jpg" />
 
-<p>Detect the time of divergence between populations <span style="font-size:.5em;">(Li, 2011)</span></small></p>
+<p>Detect the time of divergence between populations <span style="font-size:.5em;"><a href="//dx.doi.org/10.1038/nature10231" target="_blank">(Li, 2011)</a></span></small></p>
 </div>
 
 ---
@@ -309,7 +309,7 @@ Use data generated by users to improve gene prediction models
 
 <img class="stretch" style="max-width: 100%;" src="img/psmc.png" alt="WebApollo" />
 
-[Li, 2011](//dx.doi.org/10.1038/nature10231)
+<a href="//dx.doi.org/10.1038/nature10231" target="_blank">Li, 2011</a>
 
 ---
 
@@ -344,8 +344,8 @@ Run PSMC across a wide range of social insects and their solitary relatives
 
 <img src="img/human.jpg" alt="https://upload.wikimedia.org/wikipedia/commons/1/11/Uomo_Vitruviano.jpg" style="max-width: 25%" /><img src="img/wolf.jpg" alt="https://upload.wikimedia.org/wikipedia/commons/f/ff/Wolf%2C_voor_de_natuur%2C_Saxifraga_-_Jan_Nijendijk.5097.jpg" style="max-width: 39%" />
 
-* [Li, 2011](//dx.doi.org/10.1038/nature10231)
-* [Freedman, 2014](//dx.doi.org/10.1371/journal.pgen.1004016)
+* <a href="//dx.doi.org/10.1038/nature10231" target="_blank">Li, 2011</a>
+* <a href="//dx.doi.org/10.1371/journal.pgen.1004016" target="_blank">Freedman, 2014</a>
 
 
 ---
@@ -353,18 +353,18 @@ Run PSMC across a wide range of social insects and their solitary relatives
 ### Thank you!
 
 <img style="max-width: 15%;" src="img/bmpvieira.png" alt"Bruno Vieira"/>
-Bruno Vieira | <i class="fa fa-twitter"></i> [@bmpvieira](//twitter.com/bmpvieira)
+Bruno Vieira | <i class="fa fa-twitter"></i> <a href="//twitter.com/bmpvieira" target="_blank">@bmpvieira</a>
 
 <img style="max-width: 15%;" src="img/anurag.jpeg" alt"Anurag Priyam" />
-Anurag Priyam | <i class="fa fa-twitter"></i> [@yeban](//twitter.com/yeban)
+Anurag Priyam | <i class="fa fa-twitter"></i> <a href="//twitter.com/yeban" target="_blank">@yeban</a>
 
 <img style="max-width: 15%;" src="img/yannick.jpg" alt"Yannick Wurm" />
-Yannick Wurm | <i class="fa fa-twitter"></i> [@yannick__](//twitter.com/yannick__)
+Yannick Wurm | <i class="fa fa-twitter"></i> <a href="//twitter.com/yannick__" target="_blank">@yannick__</a>
 
-[bmpvieira.com/seminar14](//bmpvieira.com/seminar14)
+<a href="//bmpvieira.com/seminar14" target="_blank">bmpvieira.com/seminar14</a>
 
 <small>
-© 2014 [Bruno Vieira](//bmpvieira.com) [CC-BY 4.0](//creativecommons.org/licenses/by/4.0/deed.en_US)
+© 2014 <a href="//bmpvieira.com" target="_blanl">Bruno Vieira</a> <a href="//creativecommons.org/licenses/by/4.0/deed.en_US" target="_blank">CC-BY 4.0</a>
 </small>
 
 ---
